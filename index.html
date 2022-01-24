@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convention</title>
+    <link rel="stylesheet" href="style.css">
+    <i class="fas fa-check-circle"></i>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -47,25 +49,57 @@
 
         <!-- Carousel start -->
 
-        <section class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <section class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="convention-center-main/images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fs-2 fw-bolder">The perfect venue for your
+                                next event</h5>
+                            <p>Does this sound a bit intimidating? You don't have to feel that way. Here are some
+                                guidelines about when to make decision, what to consider, and how to do better.</p>
+                            <button class="btn-4 p-2 bg-light text-primary rounded">Book Now</button>
+                        </div>
+
                     </div>
                     <div class="carousel-item">
                         <img src="convention-center-main/images/people1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="fs-2 fw-bolder">The perfect venue for your
+                                next event</h2>
+                            <p>Does this sound a bit intimidating? You don't have to feel that way. Here are some
+                                guidelines about when to make decision, what to consider, and how to do better.</p>
+                            <button class=" btn-4 p-2 text-primary rounded bg-white">Book Now</button>
+                        </div>
+
                     </div>
                     <div class="carousel-item">
                         <img src="convention-center-main/images/wedding2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fs-2 fw-bolder">The perfect venue for your
+                                next event</h5>
+                            <p>Does this sound a bit intimidating? You don't have to feel that way. Here are some
+                                guidelines about when to make decision, what to consider, and how to do better.</p>
+                            <button class="btn-4 p-2 text-primary bg-light rounded">Book Now</button>
+                        </div>
+
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
@@ -73,6 +107,30 @@
             </div>
         </section>
     </header>
+    <main>
+        <section class="container">
+            <div class="fs-2 fw-bolder text-center mt-5">
+                <h1>Our package</h1>
+            </div>
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2 class="card-title">$300</h2>
+                        <h4>Business fair</h4>
+                        <p class="card-text">For most businesses event
+
+                            like book fair, craft fair</p>
+                        <ul class="li"></i></ul>
+                        <ul class="li"></ul>
+                        <ul class="li"></ul>
+                        <ul class="li"></ul>
+                        <ul class="li"></ul>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
