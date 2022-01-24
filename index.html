@@ -108,14 +108,26 @@
         </section>
     </header>
     <main>
+        <section class="container  position-absolute">
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header position-relative">
+                    <img src="convention-center-main/icons/Vector.svg" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+
+            </div>
+        </section>
+
         <section class="container mt-5">
             <div class="fs-2 fw-bolder text-center mt-5">
                 <h1>Our package</h1>
             </div>
-            <div class="row mt-5 ">
+            <div class="row ">
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card rounded-3">
-                        <div class="card-body">
+                    <div class="card border-0 rounded-3 mt-5">
+                        <div class="card-body mt-5">
                             <h2 class="card-title">$300</h2>
                             <h4>Business fair</h4>
                             <p class="card-text">For most businesses event
@@ -151,8 +163,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card rounded-3">
-                        <div class="card-body">
+                    <div class="card border-0 rounded-3 mt-5">
+                        <div class="card-body mt-5">
                             <h2 class="card-title">$500</h2>
                             <h4>wedding basic</h4>
                             <p class="card-text">For weddings with basic plan
@@ -186,28 +198,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="card rounded-3">
-                        <div class="card-body background-colorthird text-light">
-                            <h2 class="card-title">$300</h2>
-                            <h4>Business fair</h4>
-                            <p class="card-text">For most businesses event
-
-                                like book fair, craft fair</p>
+                <div class="col-sm-6 col-lg-3 ">
+                    <div class="card border-0  mt-5 ">
+                        <div class="card-body background-colorthird text-light  border-0 rounded-3 ">
+                            <div class="text-end "><button
+                                    class="bg-danger baged p-3 border-0 rounded-pill">Hot</button>
+                            </div>
+                            <h2 class="card-title">$800</h2>
+                            <h4>Wedding plus</h4>
+                            <p class="card-text">For most weddings with premium plans
+                            </p>
                             <div class="d-flex">
                                 <img src="convention-center-main/icons/check-circle-solid.svg" alt="" height="20px"
                                     width="20px">
-                                <p>limited space access</p>
+                                <p>Dedicated team</p>
                             </div>
                             <div class="d-flex">
                                 <img src="convention-center-main/icons/check-circle-solid.svg" alt="" height="20px"
                                     width="20px">
-                                <p>Secuirty facility</p>
+                                <p>Buffet food</p>
                             </div>
                             <div class="d-flex">
                                 <img src="convention-center-main/icons/check-circle-solid.svg" alt="" height="20px"
                                     width="20px">
-                                <p>event support</p>
+                                <p>premium Decoration</p>
                             </div>
                             <div class="d-flex">
                                 <img src="convention-center-main/icons/check-circle-solid.svg" alt="" height="20px"
@@ -217,7 +231,7 @@
                             <div class="d-flex ">
                                 <img src="convention-center-main/icons/check-circle-solid.svg" alt="" height="20px"
                                     width="20px">
-                                <p>Per day bill</p>
+                                <p>pay as plan</p>
                             </div>
                             <a href="#" class="btn text-primary rounded-pill bg-light border-0 btn-primary">Choose
                                 plan</a>
@@ -225,8 +239,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3">
-                    <div class="card">
-                        <div class="card-body">
+                    <div class="card border-0 rounded-3 mt-5">
+
+                        <div class="card-body mt-5">
                             <h2 class="card-title">$300</h2>
                             <h4>Business fair</h4>
                             <p class="card-text">For most businesses event
@@ -263,11 +278,93 @@
                 </div>
             </div>
         </section>
+
+        <!-- accordian start -->
+
+
+        <!-- <section class="container">
+
+
+            <div class="row  mt-5">
+
+                <div class="order-2 accordion col-lg-6 col-sm-" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Accordion Item #1
+                            </button>
+
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1  col-lg-6 col-sm-">
+                    <img src="convention-center-main/images/people.png" alt="">
+                </div>
+            </div>
+
+        </section> -->
+
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+
 </body>
 
 </html>
